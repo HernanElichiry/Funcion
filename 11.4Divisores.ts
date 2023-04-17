@@ -8,8 +8,10 @@ let CantidadDeDivisores = function(){
         acumulador = acumulador + 1; 
     }
      
-}    return(acumulador);
+}   return(console.log("La cantidad de divisores es:", acumulador));
+
+
     } 
 
-    console.log("La cantidad de divisores es:", CantidadDeDivisores());
-    
+    //console.log("La cantidad de divisores es:", );
+    CantidadDeDivisores()
